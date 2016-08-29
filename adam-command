@@ -1,0 +1,2 @@
+<local>bin/adam-submit --master spark://spark03:7077,spark04:7077 -- vcf2adam hdfs://192.168.2.85:9000/test/ALL.vcf /home/file/2.adam
+<cluster>bin/adam-submit -- vcf2adam hdfs://192.168.2.85:9000/test/ALL.vcf /home/file/2.adam
